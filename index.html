@@ -6,27 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foss United</title>
-    <link rel="stylesheet" href="FossUnited.css">
+    <link rel="stylesheet" href="FossUnited.css"> <!-- *** CSS link added -->
+    <!-- *** Font awesone link added -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
+
+
+<!-- *** Web page body start -->
 
 <body>
     <div>
         <div class="header">
             <nav class="nav-bar">
+
+                <!-- *** Foss logo image -->
                 <div class="foss-logo">
-                    <img src="https://fossunited.org//files/fu.png" alt="FOSS United">
+                    <img src="logo618eee.svg" alt="FOSS United">
                 </div>
 
+                <!-- *** Navigation bar start -->
+                <!-- *** This navigation bar will show in Desktop screen -->
                 <div class="nav-links" id="navLinks">
-                    <!-- <i class="fa-sharp fa-solid fa-bars" id="hamburger" onclick="myFunction()"></i> -->
                     <ul id="navigation">
-                        <!-- <li class="foss-logo"><img src="logo618eee.svg" alt="FOSS United"></li> -->
                         <li class="nav"><a href="#">Mon.School</a></li>
                         <li class="nav"><a href="#" id="grants">Grants</a></li>
                         <li class="nav"><a href="#">FOSS Pledge</a></li>
-                        <li class="nav" id="list-item"><a href="#">Events<i class="fa-sharp fa-solid fa-caret-down"
-                                    id="drop-icon1"></i></a>
+
+                        <li class="nav" id="list-item">
+                            <a href="#">Events
+                                <!-- *** Dropdown icon -->
+                                <i class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i>
+                            </a>
+
+                            <!-- *** Hoverable event dropdown menu start-->
                             <ul class="list">
                                 <li><a href="#">Events page</a></li>
                                 <li><a href="#">Monthly Meetup</a></li>
@@ -36,19 +48,32 @@
                                 <li><a href="#">IndiaOS 2020</a></li>
                                 <li><a href="#">First Commit</a></li>
                             </ul>
+                            <!-- *** Hoverable event dropdown menu end -->
+
                         </li>
 
-                        <li class="nav" id="about-item"><a href="#">About<i class="fa-sharp fa-solid fa-caret-down"
-                                    id="drop-icon1"></i></a>
+                        <li class="nav" id="about-item">
+                            <a href="#">About
+                                <!-- *** Dropdown icon -->
+                                <i class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i>
+                            </a>
+
+                            <!-- *** Hoverable about dropdown menu start -->
                             <ul class="list1">
                                 <li><a href="#">About FOSS United</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Forum</a></li>
                             </ul>
+                            <!-- *** Hoverable about dropdown menu end -->
+
                         </li>
                         <li class="nav"><a href="#">Login</a></li>
                     </ul>
                 </div>
+                <!-- *** Navigation bar end -->
+
+
+                <!-- *** Hamburger function calling -->
                 <div class="hamburgerLogo">
                     <button onclick="myFunction()" id="hamburgerMenu">
                         <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
@@ -56,14 +81,16 @@
                 </div>
 
 
-                <!-- ##############dropdownmenu navbar ################ -->
-
+                <!-- *** Mobile screen navigation bar start -->
+                <!-- It will show after clicking hamburger  -->
                 <ul id="navi" style="display: none;">
                     <li class="navi2"> <a href="#">Mon.School</a></li>
                     <li class="navi2"><a href="#" id="grant">Grants</a></li>
                     <li class="navi2"><a href="#">FOSS Pledge</a></li>
                     <li class="navi2" id="event-drop"><a href="#">Events<i class="fa-sharp fa-solid fa-caret-down"
                                 id="drop-icon1"></i></a>
+
+                        <!-- *** Event dropdown menu section start -->
                         <ul class="list2">
                             <li><a href="#">Events page</a></li>
                             <li><a href="#">Monthly Meetup</a></li>
@@ -73,46 +100,63 @@
                             <li><a href="#">IndiaOS 2020</a></li>
                             <li><a href="#">First Commit</a></li>
                         </ul>
+                        <!-- *** Event dropdown menu end -->
+
                     </li>
 
-                    <li class="navi2" id="about-drop"><a href="#">About<i class="fa-sharp fa-solid fa-caret-down"
-                                id="drop-icon1"></i></a>
+                    <li class="navi2" id="about-drop">
+
+                        <!-- *** Dropdown icon -->
+                        <a href="#">About
+                            <i class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i>
+                        </a>
+
+                        <!-- *** About dropdown menu section start -->
                         <ul class="list3">
                             <li><a href="#">About FOSS United</a></li>
                             <li><a href="#">Blog</a></li>
                             <li><a href="#">Forum</a></li>
                         </ul>
+                        <!-- *** About dropdown menu section end -->
                     </li>
 
                     <li><a href="#">Login</a></li>
                 </ul>
+                <!-- *** Mobile screen navigation bar section end -->
             </nav>
 
+            <!-- *** Funding grants and heart image section start-->
             <div class="text-img">
                 <div class="text">
                     <h1>Funding and grants</h1>
                     <p>Funding and grants for developers and organizations looking for<br>funding and grants to build
-                        high
-                        quality
-                        FOSS projects in India.
+                        high quality FOSS projects in India.
                     </p>
 
-                    <button class="clickBtn"> <a href="#">Apply for funding</a></button>
+                    <!-- *** Apply for funding button -->
+                    <button class="clickBtn">
+                        <a href="#">Apply for funding</a>
+                    </button>
+
                 </div>
 
+                <!-- *** Heart image -->
                 <div class="heartimg">
                     <img src="https://fossunited.org/files/FOSS%20grants%20hero.png" alt="image">
                 </div>
+
             </div>
+            <!-- *** Funding grants and heart image section end-->
+
         </div>
 
 
-        <!-- ########################## course ################################### -->
-
+        <!-- *** How it works section start-->
         <div class="course-container">
             <div class="course">
-                <!-- <div class="row"> -->
                 <div class="course-column">
+
+                    <!-- *** How it works text part start -->
                     <h1>How it works</h1>
                     <p>
                         We offer financial grants to people and organizations building and using Free and Open Source
@@ -129,28 +173,38 @@
                         <b>FOSS community</b>: Using FOSS for social good, defending digital rights and privacy.
                     </p>
                     <p>
-                        <b>FOSS events and hackathons</b>:See the event and hackathon grant program.
+                        <b>FOSS events and hackathons</b>:See the
+                        <a id="hackathon">event and hackathon grant</a>
+                        program.
                     </p>
                 </div>
+                <!-- *** How it works text part end -->
+
 
                 <div class="course-column">
+
+                    <!-- *** Eligibility text part start-->
                     <h1>Eligibility </h1>
                     <p>Any person or organization building FOSS technologies in India or using FOSS for social good can
                         apply. The applicant must have an Indian Bank account to receive the grant. Grant applications
                         are
                         reviewed by the FOSS United team
                     </p>
+                    <!-- *** Eligibility text part end-->
+
+                    <!-- *** Apply for funding button -->
                     <button class="clickBtn"><a href="#">Apply for funding</a></button>
                 </div>
-                <!-- </div> -->
             </div>
+            <!-- *** How it works section end-->
 
 
-            <!-- ########################### Recent Grants ###################### -->
-
+            <!-- *** Recent Grants section start  -->
             <div class="grants">
                 <p class="recent-grants"><b>Recent Grants</b></p>
                 <div class="row">
+
+                    <!-- Tinkerhub foundation section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>TinkerHub Foundation</h3>
@@ -159,7 +213,7 @@
                                 Tinkerspace
                                 project, the physical hacker/tinkerer/community space located in Kochi, Kerala.
                             </p>
-                            <a href="https://www.tinkerhub.org/" target="_blank">Website →</a>
+                            <a href="https://www.tinkerhub.org/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -174,8 +228,10 @@
                             <p>₹60,00,000</p>
                         </div>
                     </section>
+                    <!-- Tinkerhub foundation section end -->
                     <hr>
 
+                    <!-- Parseable section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Parseable</h3>
@@ -184,7 +240,7 @@
                                 logging
                                 agents like FluentBit, LogStash etc
                             </p>
-                            <a href="https://www.parseable.io/" target="_blank">Website →</a>
+                            <a href="https://www.parseable.io/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -200,12 +256,15 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Parseable section end -->
 
+
+                    <!-- *** Sayan Nandan(developer) section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Sayan Nandan (developer)</h3>
                             <p>Sayan develops Skytable, a FOSS realtime NoSQL databas.</p>
-                            <a href="https://github.com/skytable/skytable" target="_blank">Website →</a>
+                            <a href="https://github.com/skytable/skytable" target="_blank" id="website">Website →</a>
                         </div>
                         <div class="year">
                             <h4>Year</h4>
@@ -220,14 +279,16 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Sayan Nandan(developer) section end -->
 
+                    <!-- *** Glific section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Glific</h3>
                             <p>An open source, two-way communication platform for NGOs to chat and communicate with
                                 beneficiaries.
                             </p>
-                            <a href="https://paperd.ink/" target="_blank">Website →</a>
+                            <a href="https://paperd.ink/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -243,14 +304,17 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Glific section end -->
 
+
+                    <!-- *** Papered section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Paperd.ink</h3>
                             <p>paperd.ink is a FOSS 4.2" e-paper development board to show calendar, weather, to-do
                                 lists,
                                 notifications, images and much more.</p>
-                            <a href="https://paperd.ink/" target="_blank">Website →</a>
+                            <a href="https://paperd.ink/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -266,7 +330,10 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Papered section end -->
 
+
+                    <!-- *** Swathanthra Malayalam Computing section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Swathanthra Malayalam Computing</h3>
@@ -274,7 +341,7 @@
                                 of
                                 Indic
                                 language computing resources.</p>
-                            <a href="https://smc.org.in/" target="_blank">Website →</a>
+                            <a href="https://smc.org.in/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -290,7 +357,10 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Swathanthra Malayalam Computing section start -->
 
+
+                    <!-- *** TinkerHub Foundation section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>TinkerHub Foundation</h3>
@@ -300,7 +370,7 @@
                                 give
                                 hands-on hacking / dev and FOSS experience to budding hackers and students.
                             </p>
-                            <a href="https://www.tinkerhub.org/" target="_blank">Website →</a>
+                            <a href="https://www.tinkerhub.org/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -316,12 +386,15 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** TinkerHub Foundation section end -->
 
+
+                    <!-- *** Sayan Nandan (developer) section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Sayan Nandan (developer)</h3>
                             <p>Sayan develops Skytable, a FOSS reqltime NoSQL database.</p>
-                            <a href="https://github.com/skytable/skytable" target="_blank">Website →</a>
+                            <a href="https://github.com/skytable/skytable" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -337,14 +410,17 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Sayan Nandan (developer) section end -->
 
+
+                    <!-- *** Internet Freedom Foundation section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Internet Freedom Foundation</h3>
                             <p>IFF is a non-profit organisation that defends online freedom, privacy, and innovation in
                                 India.
                             </p>
-                            <a href="https://internetfreedom.in/" target="_blank">Website →</a>
+                            <a href="https://internetfreedom.in/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -360,13 +436,16 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Internet Freedom Foundation section end -->
 
+
+                    <!-- *** AdonisJS section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>AdonisJS</h3>
                             <p>A fullstack MVC web framework for Node.js created by Harminder Virk.
                             </p>
-                            <a href="https://adonisjs.com/" target="_blank">Website →</a>
+                            <a href="https://adonisjs.com/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year" id="adonis">
@@ -382,7 +461,9 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** AdonisJS section end -->
 
+                    <!-- *** Fika lang section end -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Fika lang</h3>
@@ -395,7 +476,7 @@
                                 prototype
                                 was presented at FOSS Hack 2020.
                             </p>
-                            <a href="https://github.com/fika-lang/fika" target="_blank">Website →</a>
+                            <a href="https://github.com/fika-lang/fika" target="_blank" id="website">Website →</a>
                         </div>
                         <div class="year">
                             <h4>Year</h4>
@@ -410,7 +491,10 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Fika lang section end -->
 
+
+                    <!-- *** TinkerHub Foundation section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>TinkerHub Foundation</h3>
@@ -423,7 +507,7 @@
                                 was
                                 co-sponsored by Zerodha.
                             </p>
-                            <a href="https://www.tinkerhub.org/" target="_blank">Website →</a>
+                            <a href="https://www.tinkerhub.org/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -439,14 +523,17 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** TinkerHub Foundation section end -->
 
+
+                    <!-- *** Internet Freedom Foundation section end -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Internet Freedom Foundation</h3>
                             <p>IFF is a non-profit organisation that defends online freedom, privacy, and innovation in
                                 India.
                             </p>
-                            <a href="https://internetfreedom.in/" target="_blank">Website →</a>
+                            <a href="https://internetfreedom.in/" target="_blank" id="website">Website →</a>
                         </div>
 
 
@@ -463,7 +550,10 @@
                         </div>
                     </section>
                     <hr>
+                    <!-- *** Internet Freedom Foundation section end -->
 
+
+                    <!-- *** Biswas (developer) section start -->
                     <section>
                         <div class="recent-grants-section">
                             <h3>Biswas (developer)</h3>
@@ -472,7 +562,7 @@
                                 rescue
                                 efforts during the Kerala floods.
                             </p>
-                            <a href="https://biswaz.me/" target="_blank">Website →</a>
+                            <a href="https://biswaz.me/" target="_blank" id="website">Website →</a>
                         </div>
 
                         <div class="year">
@@ -488,11 +578,17 @@
                         </div>
                     </section>
                     <hr>
-                </div>
+                    <!-- *** Biswas (developer) section end -->
 
+                </div>
             </div>
+            <!-- *** Recent Grants section end -->
+
         </div>
     </div>
+
+
+    <!-- *** Apply for funding section start -->
     <div class="funding-section">
         <div class="apply-for-funding">
             <h3>Apply for Funding</h3>
@@ -500,18 +596,18 @@
             <a href="" class="apply-btn">Apply now ></a>
         </div>
     </div>
+    <!-- *** Apply for funding section end -->
 
 
-
-    <!-- ####################### footer ############################### -->
-
-    <!-- <div class="footer-img">
-    </div> -->
+    <!-- *** Footer section start -->
     <footer>
         <div class="footer">
+            <!-- *** Footer logo -->
             <div class="logo">
-                <img src="https://fossunited.org//files/fu.png" alt="FOSS United">
+                <img src="logo618eee.svg" alt="FOSS United">
             </div>
+
+            <!-- *** Footer navigation section start -->
             <div class="footer-info">
                 <div class="footer-col">
                     <h5>About </h5>
@@ -559,7 +655,10 @@
                 </div>
             </div>
             <hr>
+            <!-- *** Footer navigation section end -->
 
+
+            <!-- *** Footer contact section start -->
             <div class="footer-info-down">
                 <div class="footer-down">
                     <p>© FOSS United Foundation. CC-BY-SA.</p>
@@ -572,10 +671,15 @@
                         Frappe</a>
                 </div>
             </div>
+            <!-- *** Footer contact section end -->
 
         </div>
     </footer>
-    <script src="FossUnited.js"> </script>
+    <!-- *** Footer section end -->
+
+    <script src="FossUnited.js"> </script> <!-- *** Javascript file link added-->
+
 </body>
+<!-- *** Web page body end -->
 
 </html>
